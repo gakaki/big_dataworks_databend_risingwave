@@ -1,0 +1,1 @@
+MYSQL_DSN=root:mypassword@tcp(127.0.0.1:3306)/mydb?charset=utf8&parseTime=True&loc=Local

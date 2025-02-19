@@ -1,0 +1,41 @@
+.star-rating {
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .star-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    outline: none;
+  }
+  .star-button:hover {
+    background: none;
+  }
+  
+  .star-button:focus {
+    outline: none;
+    box-shadow: none; /* Remove any box-shadow on focus */
+  }
+  
+  /* Remove inner focus border in Firefox */
+  .star-button::-moz-focus-inner {
+    border: 0;
+  }
+  
+  .star-svg {
+    width: 32px;
+    height: 32px;
+    transition: fill 0.2s ease-in-out;
+  }
+  
+  .star-button.on .star-svg {
+    fill: gold;
+  }
+  
+  .star-button.off .star-svg {
+    fill: #ccc;
+  }

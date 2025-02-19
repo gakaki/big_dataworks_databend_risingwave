@@ -1,0 +1,29 @@
+# 编译输出目录
+/target/
+data
+# Cargo.lock 对于库项目可以忽略，对于应用建议提交
+Cargo.lock
+
+data
+TPC-H V3.0.1
+
+# 日志、临时文件等
+*.log
+*.tmp
+
+# 编辑器与操作系统生成的临时文件
+**/*.swp
+**/*.swo
+**/.DS_Store
+**/Thumbs.db
+
+# VS Code 配置
+.vscode/
+
+# 环境变量文件
+.env
+.env.*
+
+# 其他可能的临时文件
+.idea/
+*.iml
